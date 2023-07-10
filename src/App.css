@@ -1,0 +1,16 @@
+.highlight-border {
+    border: none;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 255, 183, 0.825);
+    animation: highlight 2s infinite alternate;
+  }
+  
+  @keyframes highlight {
+    from {
+      box-shadow: 0 0 5px rgba(0, 255, 183, 0.825);
+    }
+    to {
+      box-shadow: 0 0 20px rgba(0, 255, 183, 0.825);
+    }
+  }
+  
